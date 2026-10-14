@@ -24,7 +24,7 @@ while is_questioning:
       print("🎉 You've completed the quiz!")
       print(f"Your final score was: {current_score}/{quiz.current_question_number()}")
 
-      percentage = current_score / quiz.question_number * 100
+      percentage = quiz.score / quiz.question_number * 100
       
       if percentage == 100:
           print("Perfect score! You're a web development pro! 🏆")
