@@ -15,12 +15,12 @@ menu = {
     "cost": 2.5
   },
   "cappuccino": {
-      "ingredients": {
-        "water": 250,
-        "milk": 100,
-        "coffee": 24
-      },
-      "cost": 3.0
+    "ingredients": {
+      "water": 250,
+      "milk": 100,
+      "coffee": 24
+    },
+    "cost": 3.0
   },
 }
 
