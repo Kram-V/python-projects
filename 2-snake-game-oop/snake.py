@@ -4,6 +4,7 @@ class Snake:
   def __init__(self):
     self.starting_positions = [(0, 0), (-20, 0), (-40, 0)]
     self.segments = []
+    self.is_gaming = True
 
   def make_segments(self):
     for coords in self.starting_positions:
@@ -45,4 +46,15 @@ class Snake:
       if self.segments[0].heading() != 180:
           self.segments[0].setheading(0)
 
+  def new_game(self):
+    for segment in self.segments:
+      segment.hideturtle()
+
+    self.starting_positions = [(0, 0), (-20, 0), (-40, 0)]
+    self.segments = []
+
+    self.make_segments()
+
+  def stop_game(self):
+    self.is_gaming = False
 
