@@ -8,6 +8,9 @@ venv/
 env/
 .venv/
 
+# Environment variables (passwords, API keys)
+.env
+
 # VS Code settings (optional, personal preference)
 .vscode/
 
