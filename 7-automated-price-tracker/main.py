@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 URL = "https://www.amazon.com/dp/B0G31647WM"
-TARGET_PRICE = 89.99  
+TARGET_PRICE = 90.00  
 MY_EMAIL = os.environ.get("MY_EMAIL")       
 MY_PASSWORD = os.environ.get("MY_PASSWORD")   
 
@@ -34,7 +34,7 @@ if title_tag is None:
 product_title = title_tag.getText().strip()
 
 symbol = soup.select_one(".a-price-symbol").getText()
-price_whole = soup.select_one(".a-price-whole").find(string=True, recursive=False).strip().replace(",", "")
+price_whole = soup.select_one(".a-price-whole").find(string=True, recursive=False).strip().replace(",", "").replace(".", "")
 price_decimal = soup.select_one(".a-price-decimal").getText()
 price_fraction = soup.select_one(".a-price-fraction").getText()
 
