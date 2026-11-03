@@ -1,0 +1,27 @@
+END OF DAY REPORT
+========================================
+Name:    Mark
+Date:    November 04, 2026 (Wednesday)
+Project: Flameguard Website (Nuxt)
+
+TASKS COMPLETED
+----------------------------------------
+1. fixed link in header
+2. modified some pages
+3. changed link in home page
+4. modified text content in Fire Protection Services
+
+SUMMARY
+----------------------------------------
+Commits:       4
+Files changed: 25
+Lines added:   708
+Lines removed: 598
+
+NOTES / BLOCKERS
+----------------------------------------
+- All Images
+
+PLAN FOR TOMORROW
+----------------------------------------
+- To get images from the creatives team of flameguard ph
